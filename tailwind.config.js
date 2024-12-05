@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   content: [
     './src/**/*.{html,js,jsx}', // Adjust paths based on where your JSX or HTML files are located
   ],
