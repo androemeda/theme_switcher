@@ -6,3 +6,26 @@ html, body {
     height: 100%;
     margin: 0;
   }
+
+/* src/index.css */
+
+:root {
+  --background-light: white;
+  --background-dark: #333;
+  --text-light: black;
+  --text-dark: white;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+body.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}

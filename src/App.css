@@ -1,0 +1,24 @@
+/* src/App.css */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  /* Optional: Add other global styles for smooth transitions */
+  button {
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .light {
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .dark {
+    background-color: #1a202c;
+    color: #f0f4f8;
+  }
+  
